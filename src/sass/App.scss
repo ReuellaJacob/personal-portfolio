@@ -1,0 +1,18 @@
+@import "~bootstrap/scss/bootstrap";
+
+$primary-color: #e5e7e6;
+$secondary-color: #f08080;
+$font-color: #1d2951;
+$body-font: 'Roboto', sans-serif;
+
+body {
+  background-color: $primary-color;
+  color: $secondary-color;
+  font-family: $body-font;
+}
+
+h1 {
+  color: $font-color;
+  text-align: center;
+  font-size: 2rem;
+}
