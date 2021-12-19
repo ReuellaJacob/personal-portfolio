@@ -1,0 +1,13 @@
+@use 'App';
+.navbar-light {
+  background-color: App.$primary-color;
+  .navbar-nav {
+    .nav-link {
+      color: App.$font-color !important;
+    }
+  }
+  .navbar-brand {
+    padding: 0.5rem;
+    color: App.$secondary-color;
+  }
+}
