@@ -1,0 +1,11 @@
+@use 'App';
+
+.about-me {
+  width: 80rem;
+  // todo: align it to the center
+  background-color: App.$primary-color;
+  color: App.$font-color;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
