@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://reuellajacob.github.io/portfolio/",
   "postinstall": "npm rebuild node-sass && npm install --unsafe-perm -f node-sass",
   "dependencies": {
     "@testing-library/react": "^12.1.2",
@@ -16,6 +17,8 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "sass": "^1.45.0"
   }
 }
