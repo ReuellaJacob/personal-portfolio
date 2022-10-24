@@ -4,9 +4,9 @@
   "private": true,
   "postinstall": "npm rebuild node-sass && npm install --unsafe-perm -f node-sass",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "animejs": "^3.2.1",
     "bootstrap": "^5.1.3",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.3",
@@ -23,8 +23,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {

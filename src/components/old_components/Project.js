@@ -1,5 +1,5 @@
 import {Card} from "react-bootstrap";
-import '../sass/AboutMe.scss'
+import '../../sass/AboutMe.scss'
 
 function Project() {
     return (

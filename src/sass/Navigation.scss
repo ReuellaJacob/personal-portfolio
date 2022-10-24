@@ -1,9 +1,14 @@
 @use 'App';
+
+.navbar {
+  display: flex;
+  width: 100vw;
+}
 .navbar-light {
-  background-color: App.$primary-color;
+  background-color: App.$font-color;
   .navbar-nav {
     .nav-link {
-      color: App.$font-color !important;
+      color: App.$primary-color !important;
     }
   }
   .navbar-brand {

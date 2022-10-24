@@ -1,6 +1,6 @@
 import React from 'react';
 import {Row, Col} from "react-bootstrap";
-import '../sass/AboutMe.scss';
+import '../../sass/AboutMe.scss';
 
 const skills = ['Java', 'Python', 'JavaScript', 'HTML', 'CSS', 'Object-Oriented Programming',
         'System Testing', 'Kotlin', 'Angular', 'Flutter', 'Dart', 'React'];

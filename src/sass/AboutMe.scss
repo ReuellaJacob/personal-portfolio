@@ -1,11 +1,70 @@
 @use 'App';
 
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+  height: 90vh;
+}
 .about-me {
-  width: 80rem;
+  width: 100%;
+  height: 100%;
   // todo: align it to the center
   background-color: App.$primary-color;
   color: App.$font-color;
-  margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  padding: 0.5rem;
 }
+
+.carousel {
+  // TODO: adjusting height of carousel cuts of carousel caption
+  //height:100vh;
+  justify-content: center;
+//  background-color: App.$secondary-color;
+}
+
+.carousel-item {
+  position: relative;
+  display: none;
+  justify-content: center;
+  //float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform 0.6s ease-in-out;
+}
+
+.carousel-caption{
+  color: App.$font-color-2
+}
+
+.d-block {
+  display: block;
+  object-fit: cover;
+}
+
+
+.w-100 {
+  width: 100%;
+  height: auto;
+  max-height: 100vh;
+}
+
+//img.slide {
+//  width: 100%;
+//
+//
+//
+//}
+//
+////div.carousel.slide{
+////  box-shadow: inset 5em 5em #bac7db;
+////}
+//
+//
+//h3 {
+//  color: App.$font-color;
+//}
+//
+//.check {
+//  width: 100%;
+//}
